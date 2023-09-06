@@ -6,4 +6,7 @@ pip install -r requirements.txt
 
 python manage.py collectstatic --noinput
 python manage.py migrate
-python manage.py createsuperuser --username admin --email admin@test.com --noinput
+
+
+# Renderにdeployしたが、再デプロイの為にコメントアウト
+#python manage.py createsuperuser --username admin --email admin@test.com --noinput
